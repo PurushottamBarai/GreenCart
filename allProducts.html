@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GreenCart - All Products</title>
+  <link rel="icon" href="favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="logo.svg" alt="Logo">
+    </div>
+    <div id="secRight">
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="allProducts.html" class="active">All Products</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="search-cart">
+        <div class="search-box">
+          <input type="text" placeholder="Search products">
+          <i class="fa fa-search"></i>
+        </div>
+        <div class="cart-icon">
+          <i class="fa fa-shopping-cart"></i>
+          <span class="cart-count">3</span>
+        </div>
+        <button class="login-btn" id="loginBtn">Login</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="all-products">
+    <h1 class="all-products-title" >All Products</h1>
+    
+    <div class="categories-grid" id="all-products-grid">
+      <!-- Row 1 -->
+      <div class="product-card">
+        <img src="potato_image_1.png" alt="Potato">
+        <p class="product-type">Vegetables</p>
+        <h3 class="product-name">Potato 500g</h3>
+        <div class="rating">★★★★☆ (4)</div>
+        <div class="price">
+          <span class="new-price">₹35</span>
+          <span class="old-price">₹40</span>
+        </div>
+        <button class="add-btn">🛒 Add</button>
+      </div>
+
+      <div class="product-card">
+        <img src="tomato_image.png" alt="Tomato">
+        <p class="product-type">Vegetables</p>
+        <h3 class="product-name">Tomato 1kg</h3>
+        <div class="rating">★★★★☆ (4)</div>
+        <div class="price">
+          <span class="new-price">₹28</span>
+          <span class="old-price">₹30</span>
+        </div>
+        <button class="add-btn">🛒 Add</button>
+      </div>
+
+      <div class="product-card">
+        <img src="carrot_image.png" alt="Carrot">
+        <p class="product-type">Vegetables</p>
+        <h3 class="product-name">Carrot 500g</h3>
+        <div class="rating">★★★★☆ (4)</div>
+        <div class="price">
+          <span class="new-price">₹44</span>
+          <span class="old-price">₹50</span>
+        </div>
+        <button class="add-btn">🛒 Add</button>
+      </div>
+
+      <div class="product-card">
+        <img src="spinach_image_1.png" alt="Spinach">
+        <p class="product-type">Vegetables</p>
+        <h3 class="product-name">Spinach 500g</h3>
+        <div class="rating">★★★★☆ (4)</div>
+        <div class="price">
+          <span class="new-price">₹15</span>
+          <span class="old-price">₹18</span>
+        </div>
+        <button class="add-btn">🛒 Add</button>
+      </div>
+
+      <div class="product-card">
+        <img src="onion_image_1.png" alt="Onion">
+        <p class="product-type">Vegetables</p>
+        <h3 class="product-name">Onion 500g</h3>
+        <div class="rating">★★★★☆ (4)</div>
+        <div class="price">
+          <span class="new-price">₹45</span>
+          <span class="old-price">₹50</span>
+        </div>
+        <button class="add-btn">🛒 Add</button>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="product-card">
+        <img src="apple_image.png" alt="Apple">
+        <p class="product-type">Fruits</p>
+        <h3 class="product-name">Apple (4 pcs)</h3>
+        <div class="rating">★★★★☆ (4)</div>
+        <div class="price">
+          <span class="new-price">₹120</span>
+          <span class="old-price">₹150</span>
+        </div>
+        <button class="add-btn">🛒 Add</button>
+      </div>
+
+      <div class="product-card">
+        <img src="amul_milk_image.png" alt="Milk">
+        <p class="product-type">Dairy</p>
+        <h3 class="product-name">Milk 500ml</h3>
+        <div class="rating">★★★★★ (5)</div>
+        <div class="price">
+          <span class="new-price">₹28</span>
+          <span class="old-price">₹30</span>
+        </div>
+        <button class="add-btn">🛒 Add</button>
+      </div>
+
+      <div class="product-card">
+        <img src="coca_cola_image.png" alt="Cola">
+        <p class="product-type">Drinks</p>
+        <h3 class="product-name">Cola 1L</h3>
+        <div class="rating">★★★★☆ (4)</div>
+        <div class="price">
+          <span class="new-price">₹85</span>
+          <span class="old-price">₹95</span>
+        </div>
+        <button class="add-btn">🛒 Add</button>
+      </div>
+
+      <div class="product-card">
+        <img src="basmati_rice_image.png" alt="Rice">
+        <p class="product-type">Grains</p>
+        <h3 class="product-name">White Rice 5kg</h3>
+        <div class="rating">★★★★★ (5)</div>
+        <div class="price">
+          <span class="new-price">₹75</span>
+          <span class="old-price">₹85</span>
+        </div>
+        <button class="add-btn">🛒 Add</button>
+      </div>
+
+      <div class="product-card">
+        <img src="brown_bread_image.png" alt="Bread">
+        <p class="product-type">Bakery</p>
+        <h3 class="product-name">Wheat Bread</h3>
+        <div class="rating">★★★★☆ (4)</div>
+        <div class="price">
+          <span class="new-price">₹35</span>
+          <span class="old-price">₹40</span>
+        </div>
+        <button class="add-btn">🛒 Add</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="cart-popup" class="cart-popup">
+    <span class="tick">✔</span>
+    <span class="popup-message">Added to cart</span>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-about">
+        <img class="footer-logo" src="logo.svg" alt="Logo">
+        <p>
+          We deliver fresh groceries and snacks straight to your door. Trusted by thousands, we aim to make your shopping experience simple and affordable.
+        </p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Offers & Deals</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Need help?</h2>
+          <ul>
+            <li><a href="#">Delivery Information</a></li>
+            <li><a href="#">Return & Refund Policy</a></li>
+            <li><a href="#">Track your Order</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Follow Us</h2>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright 2025 © GreenCart. All Right Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GreenCart</title>
+  <link rel="icon" href="favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="logo.svg" alt="Logo">
+    </div>
+    <div id="secRight">
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="allProducts.html">All Products</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="search-cart">
+        <div class="search-box">
+          <input type="text" placeholder="Search products">
+          <i class="fa fa-search"></i>
+        </div>
+        <div class="cart-icon">
+          <i class="fa fa-shopping-cart"></i>
+          <span class="cart-count">3</span>
+        </div>
+        <button class="login-btn" id="loginBtn">Login</button>
+      </div>
+    </div>
+  </header>
+
+ 
+<div class="body-container">
+    <div class="banner-container">
+      <div class="banner-content">
+        <h1>Freshness You Can Trust, Savings You will Love!</h1>
+        <div class="banner-buttons">
+          <button class="shop-now" id="shopBtn">Shop now</button>
+          <a href="allProducts.html" class="explore-deals">Explore deals →</a>
+        </div>
+      </div>
+    </div>
+
+
+    <h2 class="categories-title">Categories</h2>
+    <section class="categories-grid">
+      <div class="category-item" id="item1">
+        <img src="organic_vegitable_image.png" alt="Organic veggies">
+        <p>Organic veggies</p>
+      </div>
+      <div class="category-item" id="item2">
+        <img src="fresh_fruits_image.png" alt="Fresh Fruits">
+        <p>Fresh Fruits</p>
+      </div>
+      <div class="category-item" id="item3">
+        <img src="bottles_image.png" alt="Cold Drinks">
+        <p>Cold Drinks</p>
+      </div>
+      <div class="category-item" id="item4">
+        <img src="maggi_image.png" alt="Instant Food">
+        <p>Instant Food</p>
+      </div>
+      <div class="category-item" id="item5">
+        <img src="dairy_product_image.png" alt="Dairy Products">
+        <p>Dairy Products</p>
+      </div>
+      <div class="category-item" id="item6">
+        <img src="bakery_image.png" alt="Bakery & Breads">
+        <p>Bakery & Breads</p>
+      </div>
+      <div class="category-item" id="item7">
+        <img src="grain_image.png" alt="Grains & Cereals">
+        <p>Grains & Cereals</p>
+      </div>
+    </section>
+
+    <section class="#">
+      <h2 class="categories-title">Best Sellers</h2>
+      <div class="best-sellers-grid">
+
+        <div class="product-card">
+          <img src="potato_image_1.png" alt="Potato">
+          <p class="product-type">Vegetables</p>
+          <h3 class="product-name">Potato 500g</h3>
+          <div class="rating">★★★★☆ (4)</div>
+          <div class="price">
+            <span class="new-price">₹49</span>
+            <span class="old-price">₹80</span>
+          </div>
+          <button class="add-btn">🛒 Add</button>
+        </div>
+
+
+        <div class="product-card">
+          <img src="tomato_image.png" alt="Tomato">
+          <p class="product-type">Vegetables</p>
+          <h3 class="product-name">Tomato 1kg</h3>
+          <div class="rating">★★★★☆ (4)</div>
+          <div class="price">
+            <span class="new-price">₹38</span>
+            <span class="old-price">₹50</span>
+          </div>
+          <button class="add-btn">🛒 Add</button>
+        </div>
+
+
+        <div class="product-card">
+          <img src="carrot_image.png" alt="Carrot">
+          <p class="product-type">Vegetables</p>
+          <h3 class="product-name">Carrot 500g</h3>
+          <div class="rating">★★★★★ (4)</div>
+          <div class="price">
+            <span class="new-price">₹54</span>
+            <span class="old-price">₹70</span>
+          </div>
+          <button class="add-btn">🛒 Add</button>
+        </div>
+
+        <div class="product-card">
+          <img src="spinach_image_1.png" alt="Spinach">
+          <p class="product-type">Vegetables</p>
+          <h3 class="product-name">Spinach 500g</h3>
+          <div class="rating">★★★★☆ (4)</div>
+          <div class="price">
+            <span class="new-price">₹35</span>
+            <span class="old-price">₹50</span>
+          </div>
+          <button class="add-btn">🛒 Add</button>
+        </div>
+
+        <div class="product-card">
+          <img src="onion_image_1.png" alt="Onion">
+          <p class="product-type">Vegetables</p>
+          <h3 class="product-name">Onion 500g</h3>
+          <div class="rating">★★★★☆ (4)</div>
+          <div class="price">
+            <span class="new-price">₹45</span>
+            <span class="old-price">₹60</span>
+          </div>
+          <button class="add-btn">🛒 Add</button>
+        </div>
+      </div>
+    </section>
+
+    <div id="cart-popup" class="cart-popup">
+      <span class="tick">✔</span>
+      <span class="popup-message">Added to cart</span>
+    </div>
+  
+      <div class="bottom-banner">
+        <div class="bottom-banner-content">
+          <h1>Why We Are the Best?</h1>
+          <ul class="features">
+           <div class="desc-text"> <h3>Fastest Delivery</h3>
+              <h5 class="desc">Groceries delivered in under 30 minutes.</h5>
+            </div>
+            <div class="desc-text"><h3>Freshness Guaranteed</h3>
+              <h5 class="desc">Fresh produce straight from the source.</h5>
+            </div>
+            <div class="desc-text"> <h3>Affordable Prices</h3>
+              <h5 class="desc">Quality groceries at unbeatable prices.</h5>
+            </div>
+            <div class="desc-text"> <h3>Trusted by Thousands</h3>
+              <h5 class="desc">Loved by 10,000+ happy customers.</h5>
+            </div>
+          </ul>
+        </div>
+          <div id="girl"> </div>
+        
+       </div> 
+</div>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-about">
+        <img class="footer-logo" src="logo.svg" alt="Logo">
+        <p>
+          We deliver fresh groceries and snacks straight to your door. Trusted by thousands, we aim to make your
+          shopping experience simple and affordable.
+        </p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Offers & Deals</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Need help?</h2>
+          <ul>
+            <li><a href="#">Delivery Information</a></li>
+            <li><a href="#">Return & Refund Policy</a></li>
+            <li><a href="#">Track your Order</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Follow Us</h2>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright 2025 © GreenCart. All Right Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

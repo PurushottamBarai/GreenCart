@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GreenCart</title>
+  <link rel="icon" href="favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header class="navbar">
+      <div class="logo">
+        <img src="logo.svg" alt="Logo">
+      </div>
+      <div id="secRight">
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="allProducts.html">All Products</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="search-cart">
+          <div class="search-box">
+            <input type="text" placeholder="Search products">
+            <i class="fa fa-search"></i>
+          </div>
+          <div class="cart-icon">
+            <i class="fa fa-shopping-cart"></i>
+            <span class="cart-count">3</span>
+          </div>
+          <button class="login-btn" id="loginBtn">Login</button>
+        </div>
+      </div>
+    </header>
+    
+    <section class="all-products" >
+        <h2 class="all-products-title">Bakery & Breads</h2>
+        <div class="categories-grid" id="all-products-grid">
+    
+          <div class="product-card">
+            <img src="brown_bread_image.png" alt="Brown_bread">
+            <p class="product-type">Bakery</p>
+            <h3 class="product-name">Brown Bread 400g</h3>
+            <div class="rating">★★★★☆ (4)</div>
+            <div class="price">
+              <span class="new-price">₹89</span>
+              <span class="old-price">₹107</span>
+            </div>
+            <button class="add-btn">🛒 Add</button>
+          </div>
+      
+         
+          <div class="product-card">
+            <img src="butter_croissant_image.png" alt="Butter">
+            <p class="product-type">Bakery</p>
+            <h3 class="product-name">Butter Croissant 100g</h3>
+            <div class="rating">★★★★☆ (4)</div>
+            <div class="price">
+              <span class="new-price">₹69</span>
+              <span class="old-price">₹75</span>
+            </div>
+            <button class="add-btn">🛒 Add</button>
+          </div>
+      </section>
+
+<div id="cart-popup" class="cart-popup">
+    <span class="tick">✔</span>
+    <span class="popup-message">Added to cart</span>
+  </div>
+  
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-about">
+            <img class="footer-logo" src="logo.svg" alt="Logo">
+            <p>
+              We deliver fresh groceries and snacks straight to your door. Trusted by thousands, we aim to make your shopping experience simple and affordable.
+            </p>
+          </div>
+          <div class="footer-links">
+            <div>
+              <h2>Quick Links</h2>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Offers & Deals</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#">FAQs</a></li>
+              </ul>
+            </div>
+            <div>
+              <h2>Need help?</h2>
+              <ul>
+                <li><a href="#">Delivery Information</a></li>
+                <li><a href="#">Return & Refund Policy</a></li>
+                <li><a href="#">Track your Order</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+            <div>
+              <h2>Follow Us</h2>
+              <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">YouTube</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Copyright 2025 © GreenCart. All Right Reserved.</p>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
