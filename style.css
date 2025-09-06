@@ -111,7 +111,7 @@ body {
     
     max-width: 1250px;
     position: relative;
-    background-image: url('assets/main_banner_bg.png');
+    background-image:url(assets/main_banner_bg.png);
     overflow: hidden;
 }
 
@@ -168,7 +168,7 @@ body {
     
     max-width: 1250px;
     position: relative;
-    background-image: url('assets/bottom_banner_image.png');
+    background-image: url(assets/bottom_banner_image.png);
     overflow: hidden;
 }
 .bottom-banner {
@@ -505,4 +505,5 @@ body {
     box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
     background-color: #fff;
 }
+
 
